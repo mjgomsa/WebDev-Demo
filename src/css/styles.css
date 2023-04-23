@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    position: fixed;
+    padding: 30px;
+}
+article {
+    height: 100vh;
+    padding: 20%;
+}
+
+.nav a {
+      display: inline-flex;
+      padding: 20px 30px;
+      color: #fff;
+      text-decoration: none;
+  }
+
+.nav a:hover{
+  color: grey;
+}
+
+.nav a:active {
+    color: magenta;
+}
+
+#s1{
+    background-color: red;
+}
+#s2{
+    background-color: blue;
+}
+#s3{
+    background-color: yellow;
+}
